@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+}
+
+section {
+    padding: 0 calc(10.6vw - 16px) calc(11vw + 18.4px);
+}
+
+.logotip {
+    width: calc(8.8vw + 182px);
+    margin-top: calc(0.33vw + 41px);
+    margin-bottom: calc(6.30vw + 4.29px);
+}
+
+.cours_info {
+    display: flex;
+    gap: calc(14vw + 24px);
+    margin-bottom: calc(3vw + 36px);
+    flex-wrap: wrap;
+}
+
+.cours_data {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title{
+    font-size: calc(0.55vw + 14px);
+    line-height: 140%;
+}
+
+
+
+.value{
+    font-size: calc(0.55vw + 14px);
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.html_css_js h1{
+    font-family: 'Chava';
+    font-size: calc(4.2vw + 26.2px);
+    line-height: 110%; /* 88px */
+    margin-bottom: calc(2.21vw + 11.68px);
+    width: calc(49vw + 147px);
+}
+
+.html_css_js p{   
+    font-size: calc(1vw + 14.2px);
+    font-weight: 300;
+    line-height: 140%;
+    max-width: calc(66vw + 77px);
+    margin-bottom: 20px;
+}
+
+.btn_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+
+.primary{
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA ;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: calc(1vw + 15px);
+}
+
+.secondary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid #6E3ABA;
+    color: #6E3ABA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.html_css_js{
+    background-image: url(./img/html-css-js.svg);
+    background-repeat: no-repeat;
+    background-position: top calc(4.86vw + 58.7px) right calc(6vw - 18.5px );
+    background-size: calc(24vw + 89.2px);
+}
+
+.sec_block_photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block_pho {
+    /* max-width: 450px;
+    width: 100%; */
+    width: calc(13.49vw + 277px);
+}
+
+#photo_1 {
+    width: calc(6.30vw + 206px);
+    padding-bottom: calc(1.1vw + 5.84px);
+}
+
+#photo_2 {
+    width: calc(5.19vw + 187px);
+    padding-bottom: calc(2.76vw + 0.39px);
+}
+
+#photo_3 {
+    width: calc(1.88vw + 167px);
+    margin-bottom: calc(1.43vw + 4.59px);
+    border: 2px dashed black; 
+}
+
+#photo_4 {
+    width: calc(4.75vw + 177px);
+    padding-top: calc(0.11vw + 9.58px);
+    border: 2px dashed black;
+    height: calc(4.75vw + 177px); 
+}
+
+.photo_text {   
+    color: rgb(34, 34, 34);
+    font-family: TT Hoves;
+    font-size: calc(1vw + 14.25px);
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: calc(1.10vw + 5.84px);
+}
+
+.photo_text2 {
+    color: rgb(34, 34, 34);
+    font-family: TT Hoves;
+    font-size: calc(1vw + 14.25px);
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+
+.timer {
+    background-color: #6E3ABA;
+    padding-top: calc(4.42vw + 23.36px);
+    padding-bottom: calc(4.42vw + 23.36px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100vw + 141px);
+}
+
+.timer h3 {
+    color: var(--typo-white, #FFF);
+    font-family: "TT Hoves";
+    font-size: calc(2vw + 26px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    margin-bottom: calc(4vw + 4.61px);
+}
+
+.timer_container {
+    display: flex;
+    gap: calc(4.64vw + 6.78px);
+    margin-bottom: calc(4vw + 4.6px);
+}
+
+.timer_value {
+    color: #2F1D4E;
+    font-family: Chava;
+    font-size: calc(12vw + 12.58px);
+    font-weight: 400;
+    line-height: 107.5%; /* 187.05px */
+}
+
+.timer_text {
+    color: #2F1D4E;
+    text-align: center;
+    font-family: "TT Hoves";
+    font-size: calc(1.88vw + 2.92px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.timer_card {
+    color: rgb(47, 29, 78);
+    font-family: Chava;
+    font-size: calc(12vw + 12.56px);
+    font-weight: 400;
+    line-height: 107.5%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.html_css_js h2 {
+    padding-top: calc(11vw + 18px);
+    margin-bottom: calc(2.87vw - 4.18px);
+    color: rgb(34, 34, 34);
+    font-family: TT Hoves;
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.block_pho {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 788px) {
+    .cours_info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 826px) {
+    .primary {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+.legend h3 {
+    font-weight: 500;
+    font-size: calc(2.66vw + 23px);
+    margin-bottom: calc(5.5vw + 19px);
+    margin-top: calc(11.06vw + 18.40px);
+    text-transform: uppercase;
+}
+
+.legend_wrapper {
+    display: flex;
+    gap: calc(3.42vw + 7.10px);
+    flex-wrap: wrap;
+}
+
+.legend_img {
+    /* flex-basis: calc(7.7vw + 299px); */
+    flex-grow: 0;
+    width: calc(7.74vw + 299px);
+}
+
+.legend_text_wrapper {
+    flex-basis: 566px;
+    flex-grow: 100;
+}
+.legend_text_wrapper h3 {
+    margin-bottom: calc(1.1vw + 5.84px);
+    font-size: calc(1.10vw + 33.84px);
+    max-width: calc(24.88vw + 247.41px);
+    font-weight: 700;
+
+}
+
+.legend_text_wrapper .subtitle {
+    font-size: calc(1vw + 14.26px);
+    margin-bottom: calc(5.25vw + 22.8px);
+}
+
+.legend_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: calc(8.84vw - 23.27px);
+    grid-template-areas: "A B"
+                         "C D"   ;
+}
+
+.legend_card:nth-child(1) {
+    grid-area: A;
+}
+
+.legend_card:nth-child(2) {
+    grid-area: B;
+}
+
+.legend_card:nth-child(3) {
+    grid-area: C;
+}
+
+.legend_card:nth-child(4) {
+    grid-area: D;
+}
+
+
+.legend_card p {
+    font-size: calc(0.55vw + 13.92px);
+    max-width: calc(10.39vw + 116.90px);
+}
+
+
+@media (max-width: 756px) {
+    .legend_text_wrapper h3 {
+    max-width: 100%;
+    font-size: 30px;
+}
+}
+
+
+.diplom {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 450px 1fr;
+    grid-template-areas: "photo h4"
+                         "photo span";
+    gap: 20px 10px;
+    margin-top: calc(11.06vw + 18.40px);
+}
+
+.photo_dip {
+    
+    grid-area: photo;
+}
+
+.photo_dip2 {
+    width: calc(11.39vw + 285px);
+}
+
+
+.diplom h4 {
+    padding-bottom: 20px;
+    font-family: "TT Hoves";
+    font-weight: 500;
+    font-size: calc(2.65vw + 24px);
+    text-transform: uppercase;
+    grid-area: h4;
+}
+
+.diplom span {
+    font-size: calc(1.10vw + 12.84px);
+    font-weight: 400;
+    font-family: "TT Hoves";
+    grid-area: span;
+}
+
+
+@media (max-width:910px){
+    .diplom {
+        grid-template-columns: 1fr;
+        grid-template-areas: "h4"
+                             "photo"
+                             "span";
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .legend_icons {
+    grid-template-areas: "A D"
+                         "B C"   ;
+}
+}
+
+.splide h3 {
+    font-weight: 500;
+    font-size: calc(2.65vw + 24px);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.splide__slide {
+    background-color: #F0F7FD;
+    border-radius: 12px;
+    padding: 50px 20px;
+}
+
+.splide__arrow {
+    display: none;
+}
+
+.splide__pagination {
+    display: none;
+}
+
+.youtube {
+    margin-bottom: 13px;
+}
+
+
+
+@media (max-width: 600px) {
+    .legend_icons {
+        grid-template-areas: "A D"
+                             "B C ";
+    }
+}
+
+/* @media (min-width: 500px) {
+    .html_css_js h3 {
+        padding-right: 120px;
+    }
+} */
+
+
+
+
+
